@@ -1,0 +1,25 @@
+.RuneContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
+}
+
+.RuneContainer svg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.RuneContainer.Flipped svg {
+  transform: scaleX(-1);
+}
+
+.RuneContainer.Rotated svg {
+  transform: rotate(180deg);
+}
+
+.RuneContainer.FlippedAndRotated svg {
+  transform: scaleX(-1) rotate(180deg);
+}

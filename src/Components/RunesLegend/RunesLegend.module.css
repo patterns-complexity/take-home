@@ -1,0 +1,15 @@
+.LegendContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
+}
+
+.LegendContainer path {
+  stroke: var(--light-color);
+}
+
+.RuneRow {
+  display: flex;
+  flex-direction: row;
+}

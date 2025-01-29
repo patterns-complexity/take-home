@@ -1,0 +1,47 @@
+@import url('./normalize.css');
+@import url('./colors.css');
+
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+h1 {
+  text-align: center;
+  margin: 25px 0px;
+  font-size: 47px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: lowercase;
+  font-family: "Amatic SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2, h3, h4, h5, h6 {
+  border-bottom: 1px solid var(--light-color)
+}
+
+h2 {
+  margin: 5px 0 25px 0;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid var(--light-color);
+  border-radius: 6px;
+  padding: 5px 10px;
+  color: var(--light-color);
+  transition: all .2s ease-in-out;
+  outline: none;
+}
+
+input:focus {
+  scale: 1.05;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}

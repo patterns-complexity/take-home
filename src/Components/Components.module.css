@@ -1,0 +1,14 @@
+.Toast {
+  background-color: var(--error-color);
+  color: var(--light-color);
+  font-weight: bold;
+}
+
+.Toast button {
+  color: var(--light-color);
+  opacity: 1;
+}
+
+.Toast > div > div {
+  background-color: var(--light-color);
+}

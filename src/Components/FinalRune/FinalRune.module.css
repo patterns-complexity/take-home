@@ -1,0 +1,28 @@
+.ResultContainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: center;
+}
+
+.Result {
+  border: 1px solid var(--light-color);
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.RuneContainer svg path {
+  stroke: var(--light-color);
+}
+
+.RuneContainer svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  scale: 4;
+}

@@ -1,0 +1,22 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.FormControl {
+  max-width: 150px;
+}
+
+.FormControlError input {
+  border-color: var(--error-color);
+  color: var(--error-color) !important;
+}
+
+.FormControlError label {
+  color: var(--error-color);
+}
